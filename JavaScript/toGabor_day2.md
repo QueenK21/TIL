@@ -51,7 +51,7 @@ function displayResult() {
 }
 </script>
 ```   
-{%include innerHTML_test.html id="CbwkwncIyH8&feature=youtu.be"%}
+![위 예시의 브라우저에서의 모습](/include/innerHTML_test.gif)
  
 myHeader라는 id가 존재하고, 아래서 getElementById로 myHeader 의 element를 불러와 버튼을 클릭하면 Have a nice day!가 출력되게 만드는 것이다. 즉, myHeader 요소인 Hello World (=innerHTML) 을 Have a nice day로 재세팅한 것. Have a nice day라고 새로 부여하지 않고, 
 var contet = document.getElementById("myHeader").innerHTML; alert(content); 하면, alert에 원래 myHeader의 innerHTML인 Hello World!를 띄워준다.  
