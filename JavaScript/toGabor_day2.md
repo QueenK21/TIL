@@ -2,7 +2,8 @@ Day 2: 온라인 실험에서 Gabor Patch 만들기
 ===========================================
 
 
-Day 1에서 [Online Gabor-patch generator](https://www.cogsci.nl/gabor-generator)를 찾아 php 가보를 만들려고했는데, js로 짠 [gaborgen](https://github.com/jtth/gaborgen-js)을 찾음..ㅠ 이걸로 만드는게 더 쉽고 빠를 것 같고 git pages에선 php지원이 어차피 안된다고하니 gaborgen을 이용해서 가보 제시 실험dmf 만들기로했다. 근데 문제는 이 스크립트가 jQuery를 사용하고있는데 jQuery문법이 나에게 너무나 생소하다...오늘 붙들고있는 내내 끙끙 앓았는데 조금씩 앞으로 나가보자. 
+Day 1에서 [Online Gabor-patch generator](https://www.cogsci.nl/gabor-generator)를 찾아 php 가보를 만들려고했는데, js로 짠 [gaborgen](https://github.com/jtth/gaborgen-js)을 찾음..ㅠ 이걸로 만드는게 더 쉽고 빠를 것 같고 git pages에선 php지원이 어차피 안된다고하니 gaborgen을 이용해서 가보 제시 실험을 만들기로했다. ~근데 문제는 이 스크립트가 jQuery를 사용하고있는데 jQuery문법이 나에게 너무나 생소하다...오늘 붙들고있는 내내 끙끙 앓았는데 조금씩 앞으로 나가보자.~  
+jQuery는 이제 죽어가는 라이브러리고 jQuery가 제공하던 거의 대부분의 편의가 이제 vanila JS에서도 가능하다고 한다. 어차피 온라인 실험 만들면서 js도 공부하려고 하고 있었으니 jQuery 문법을 모두 JS로 바꿔서 작성해보려고 한다 (2021.01.18 수정 사항).  
    
 __*UTF-8__   
 ```html
